@@ -1,0 +1,33 @@
+Como instalar el DNS
+
+https://github.com/EstherHache/DNS/blob/master/1.png
+ 
+Poner IP fija al DNS
+ 
+https://github.com/EstherHache/DNS/blob/master/2.png
+
+Configurar DNS
+	cd /etc/bind/
+  
+	sudo nano named.conf.options
+  
+https://github.com/EstherHache/DNS/blob/master/3.png
+ 
+  Sudo nano named.conf
+  
+  https://github.com/EstherHache/DNS/blob/master/4.png
+ 
+	sudo nano named.conf.local
+  
+  https://github.com/EstherHache/DNS/blob/master/5.png
+ 
+	sudo nano rd.sitioa.com
+  
+  https://github.com/EstherHache/DNS/blob/master/6.png
+ 
+	sudo nano ri.192.168.1
+  
+  https://github.com/EstherHache/DNS/blob/master/7.png
+ 
+	
+ 
